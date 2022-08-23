@@ -1,0 +1,28 @@
+{
+  "name": "super-minimal-mocha-loader",
+  "version": "1.0.0",
+  "description": "A super-minimal reporter for Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/test.js --reporter index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corazzi/super-minimal-mocha-loader.git"
+  },
+  "keywords": [
+    "minimal",
+    "minimalist",
+    "mocha",
+    "loader"
+  ],
+  "author": "Sacha Corazzi <sacha.corazzi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corazzi/super-minimal-mocha-loader/issues"
+  },
+  "homepage": "https://github.com/corazzi/super-minimal-mocha-loader#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
